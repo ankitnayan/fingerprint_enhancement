@@ -1,0 +1,13 @@
+Gabor Filtering based imaged enhancement
+	- block size is fixed to 17x17 (same orientation is assumed inside the block)
+	- gabor filter size is fixed to 7x7 (size of filter to apply over each pixel)
+	- 0.155 is kept as ridge frequency	
+	
+Command to compile:
+	1) javac sharpen_image.java
+	2) javac estimate.java
+	3) javac gabor_filter.java
+
+Command to run:
+	java gabor_filter
+	file_name of input image is hardcoded in line no. 50 of gabor_filter.java
